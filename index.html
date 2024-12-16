@@ -22,24 +22,3 @@ ctx.fillRect(1,1,260,150);
 <img src="https://files.catbox.moe/ng7q7k.png" alt="pinkpitchmaj"><!DOCTYPE html>
 <html>
 <body>
-<h1>Take A Screenshot</h1>
-
-<canvas id="myCanvas" width="260" height="150" style="border:1px solid grey;">
-</canvas>
-<script>
-const c = document.getElementById("myCanvas");
-const ctx = c.getContext("2d");
-
-// Create linear gradient
-const grad=ctx.createLinearGradient(50,0,255,0);
-grad.addColorStop(0, "pink");
-grad.addColorStop(1, "purple"); 
-
-// Fill rectangle with gradient
-ctx.fillStyle = grad;
-ctx.fillRect(1,1,260,150);
-</script>
-<h1>If Ur Browser Doesn't Support Canvas, Here's An Image</h1>
-<img src="https://files.catbox.moe/ng7q7k.png" alt="pinkpitchmaj">
-</body>
-</html>
